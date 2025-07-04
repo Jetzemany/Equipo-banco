@@ -1,0 +1,46 @@
+/* EstiloDeposito.css */
+
+/* Fondo de la ventana */
+.root {
+    -fx-background-color: linear-gradient(to bottom right, #6a11cb, #2575fc);
+    -fx-font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Estilo del título */
+.label {
+    -fx-text-fill: white;
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-padding: 5 0 10 0;
+}
+
+/* Campo de texto */
+.text-field {
+    -fx-background-color: white;
+    -fx-border-color: #2575fc;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-padding: 8 10 8 10;
+    -fx-font-size: 14px;
+}
+
+/* Botón */
+.button {
+    -fx-background-color: #2575fc;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 8 20 8 20;
+    -fx-background-radius: 5;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #6a11cb;
+}
+
+/* Mensaje resultado */
+.label:last-child {
+    -fx-text-fill: #ffdddd;
+    -fx-font-style: italic;
+    -fx-padding: 10 0 0 0;
+}
