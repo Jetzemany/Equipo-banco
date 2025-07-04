@@ -8,4 +8,5 @@ module com.example.banco {
 
     opens com.example.banco to javafx.fxml;
     exports com.example.banco;
+
 }
