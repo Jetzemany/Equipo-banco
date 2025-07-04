@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.banco.Menu"
+            prefHeight="400.0" prefWidth="600.0">
+    spacing="15" alignment="CENTER" style="-fx-padding: 30; -fx-background-color: #f0f8ff;">
+
+    <Button fx:id="consultarBtn" text="Consultar saldo" onAction="#consultarSaldo" prefWidth="200"/>
+    <Button fx:id="depositarBtn" text="Depositar dinero" onAction="#depositar" prefWidth="200"/>
+    <Button fx:id="retirarBtn" text="Retirar dinero" onAction="#retirar" prefWidth="200"/>
+</VBox>
+
+</AnchorPane>
+

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.banco.Menu"
+            prefHeight="400.0" prefWidth="600.0"
+            stylesheets="@estilo.css">
+
+    <!-- Título -->
+    <Label layoutX="150.0" layoutY="30.0" text="Menú Principal del Banco"
+           styleClass="label-titulo"/>
+
+    <!-- Botones -->
+    <Button fx:id="consultarBtn" layoutX="200" layoutY="100" text="💰 Consultar Saldo"
+            onAction="#consultarSaldo" prefWidth="200"
+            styleClass="boton-principal consultar"/>
+
+    <Button fx:id="depositarBtn" layoutX="200" layoutY="160" text="📥 Depositar Dinero"
+            onAction="#depositar" prefWidth="200"
+            styleClass="boton-principal depositar"/>
+
+    <Button fx:id="retirarBtn" layoutX="200" layoutY="220" text="📤 Retirar Dinero"
+            onAction="#retirar" prefWidth="200"
+            styleClass="boton-principal retirar"/>
+</AnchorPane>
+
+
+
